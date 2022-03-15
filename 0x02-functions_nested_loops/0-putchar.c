@@ -9,12 +9,15 @@
 
 int main(void)
 {
-	char text[9] = "_putchar";
-	int i;
-	for (i = 0; i < 9; i++)
+	char s[9] = "_putchar";
+	int i = 0;
+
+	while (i < 8)
 	{
-		_putchar(text[i]);
+		_putchar(s[i]);
+		i++;
 	}
 	_putchar('\n');
+
 	return (0);
 }
