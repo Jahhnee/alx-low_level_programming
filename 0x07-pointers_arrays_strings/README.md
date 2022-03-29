@@ -6,4 +6,5 @@ Task 4; Write a function that searches a string for any of a set of bytes., The 
 Task 5; Write a function that locates a substring., The _strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared., Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
 Task 6; Write a function that prints the chessboard.
 Task 7; Write a function that prints the sum of the two diagonals of a square matrix of integers., Format: see example, You are allowed to use the standard library
-TAsk 8;
+TAsk 8;Write a function that sets the value of a pointer to a char
+TAsk 9; Create a file that contains the password for the crackme2 executable, Your file should contain the exact password, no new line, no extra space, ltrace, ldd, gdb and objdump can help You may need to install the openssl library to run the crakme2 program: sudo apt install libssl-dev, Edit the source list sudo nano /etc/apt/sources.list to add the following line: deb http://security.ubuntu.com/ubuntu xenial-security main Then sudo apt update and sudo apt install libssl1.0.0
