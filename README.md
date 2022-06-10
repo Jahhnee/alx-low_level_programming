@@ -1,1 +1,1 @@
-learning c language today. yeah!!
+C programming. i dont like it here
